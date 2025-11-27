@@ -152,7 +152,7 @@ public class WebMDInterview {
 //        arryToString(arr);
 //
 //        List<String> ls = arrayToArraylist(arr);
-//        List<String> e1 = Arrays.asList(arr);
+//        List<String> e1 = Practice.Arrays.asList(arr);
 
 ////        System.out.println(e1);
 ////
@@ -180,7 +180,7 @@ public class WebMDInterview {
     }
 
     public static void arryToString(String[] arr) {
-        // Arrays.toString prints actual array, it's like a snapshot because it contains square brackets and , as well
+        // Practice.Arrays.toString prints actual array, it's like a snapshot because it contains square brackets and , as well
         System.out.println(Arrays.toString(arr));
 
         // these methods just print the string representation of the object

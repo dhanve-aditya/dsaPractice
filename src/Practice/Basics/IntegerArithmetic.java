@@ -1,4 +1,4 @@
-package Basics;
+package Practice.Basics;
 
 public class IntegerArithmetic {
 
@@ -8,6 +8,9 @@ public class IntegerArithmetic {
 
         // sum of digits of number using recursion
         System.out.println(recursionSum(1234));
+
+        // sum of n natural numbers
+
 
     }
 
@@ -35,5 +38,28 @@ public class IntegerArithmetic {
             return 0;
         return (input % 10) + recursionSum(input / 10);
 
+    }
+
+    /**
+     * start with n aand then decrement the value till you reach 0 (iterate to perform operations till thne)
+     * @param a
+     * @return
+     */
+    public static int sumOfNumbers(int a) {
+        int sum = 0;
+        int currentValue = a;
+        while (currentValue > 0) {
+            sum += currentValue;
+            currentValue--;
+        }
+        return sum;
+    }
+
+    public static int sumOfNaturalLoop(int n) {
+        int result = 0;
+        for (int i = 1; i <= n; i++) {
+            result += i;
+        }
+        return result;
     }
 }

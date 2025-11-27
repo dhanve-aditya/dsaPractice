@@ -1,4 +1,4 @@
-package OOPs;
+package Practice.OOPs;
 
 public class ClassesAndObjects {
 

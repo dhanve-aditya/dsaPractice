@@ -27,7 +27,7 @@ public class Sorting {
     }
 
     public static void sortChar(char[] charArrOfString) {
-        // Arrays class method to sort a char or int array
+        // Practice.Arrays class method to sort a char or int array
         Arrays.sort(charArrOfString);
 
         // convert back to string

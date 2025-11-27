@@ -1,4 +1,4 @@
-package Arrays;
+package Practice.Arrays;
 
 public class SearchInArray {
 
